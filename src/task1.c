@@ -5,7 +5,7 @@
 void input_data()
 {
     double l_border, r_border;
-    printf( "Enter left border, greater than ir equal to 0: ");
+    printf( "Enter left border, greater than or equal to 0: ");
     scanf("%lf", &l_border);
     printf("Enter a right border, that is less than Pi value and greater than left border: ");
     scanf("%lf", &r_border);
