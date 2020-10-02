@@ -14,7 +14,7 @@ void input_data()
 
 void validation(double l_border, double r_border)
 {
-    int Breakdowns[6] = {5, 10, 20, 100, 500, 1000};
+    int Breakdowns[6] = {6, 10, 20, 100, 500, 1000};
     if(l_border >= 0 && r_border > l_border && M_PI > r_border)
     {
         for(int i = 0; i < 6; i++)
