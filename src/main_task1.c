@@ -60,6 +60,7 @@ double Simpsons_method(int a, double l_border, double r_border)
 	return square_sum;
 };
 
+
 void output_data(int Breakdowns, double l_border, double r_border)
 {
     printf("%6d%10.5lf%10.5lf\n", Breakdowns, medium_rect_method(Breakdowns, l_border, r_border), Simpsons_method(Breakdowns, l_border, r_border));
